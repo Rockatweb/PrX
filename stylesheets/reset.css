@@ -1,0 +1,117 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+/* line 8, y:/vhosts/branches/prx/sass/reset.scss */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp { border: 0; margin: 0; padding: 0; font-size: 100%; }
+
+/* line 10, y:/vhosts/branches/prx/sass/reset.scss */
+html, body { height: 100%; }
+
+/* line 13, y:/vhosts/branches/prx/sass/reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { /* Override the default (display: inline) for browsers that do not recognize HTML5 tags.
+ IE8 (and lower) requires a shiv: http://ejohn.org/blog/html5-shiv
+*/ display: block; }
+
+/* line 25, y:/vhosts/branches/prx/sass/reset.scss */
+b, strong { /* Makes browsers agree. IE + Opera = font-weight: bold. Gecko + WebKit = font-weight: bolder.
+*/ font-weight: bold; }
+
+/* line 34, y:/vhosts/branches/prx/sass/reset.scss */
+img { color: transparent; font-size: 0; vertical-align: middle; /* For IE. http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/ -ms-interpolation-mode: bicubic; }
+
+/* line 42, y:/vhosts/branches/prx/sass/reset.scss */
+ol, ul { list-style: none; }
+
+/* line 44, y:/vhosts/branches/prx/sass/reset.scss */
+li { /* For IE6 + IE7:
+ "display: list-item" keeps bullets from disappearing if hasLayout is triggered.
+*/ display: list-item; }
+
+/* line 54, y:/vhosts/branches/prx/sass/reset.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 56, y:/vhosts/branches/prx/sass/reset.scss */
+th, td, caption { font-weight: normal; vertical-align: top; text-align: left; }
+
+/* line 58, y:/vhosts/branches/prx/sass/reset.scss */
+q { quotes: none; }
+
+/* line 60, y:/vhosts/branches/prx/sass/reset.scss */
+q:before, q:after { content: ''; content: none; }
+
+/* line 62, y:/vhosts/branches/prx/sass/reset.scss */
+sub, sup, small { font-size: 75%; }
+
+/* line 64, y:/vhosts/branches/prx/sass/reset.scss */
+sub, sup { line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 66, y:/vhosts/branches/prx/sass/reset.scss */
+sub { bottom: -0.25em; }
+
+/* line 68, y:/vhosts/branches/prx/sass/reset.scss */
+sup { top: -0.5em; }
+
+/* line 70, y:/vhosts/branches/prx/sass/reset.scss */
+svg { /* For IE9. Without, occasionally draws shapes outside the boundaries of <svg> rectangle.
+*/ overflow: hidden; }
+
+/* HTML5 Boilerplate  What follows is the result of much research on cross-browser styling. Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal, Kroc Camen, and the H5BP dev community and team. */
+/* ========================================================================== Base styles: opinionated defaults ========================================================================== */
+/* line 89, y:/vhosts/branches/prx/sass/reset.scss */
+html, button, input, select, textarea { color: #222222; }
+
+/* line 91, y:/vhosts/branches/prx/sass/reset.scss */
+body { font-size: 1em; line-height: 1.4; }
+
+/* A better looking default horizontal rule */
+/* line 97, y:/vhosts/branches/prx/sass/reset.scss */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+/* Remove the gap between images and the bottom of their containers: h5bp.com/i/440 */
+/* line 102, y:/vhosts/branches/prx/sass/reset.scss */
+img { vertical-align: middle; }
+
+/* Remove default fieldset styles. */
+/* line 107, y:/vhosts/branches/prx/sass/reset.scss */
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Allow only vertical resizing of textareas. */
+/* line 112, y:/vhosts/branches/prx/sass/reset.scss */
+textarea { resize: vertical; }
+
+/* ========================================================================== Chrome Frame prompt ========================================================================== */
+/* line 117, y:/vhosts/branches/prx/sass/reset.scss */
+.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
+
+/* ========================================================================== Helper classes ========================================================================== */
+/* Image replacement */
+/* line 126, y:/vhosts/branches/prx/sass/reset.scss */
+.ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
+
+/* line 127, y:/vhosts/branches/prx/sass/reset.scss */
+.ir:before { content: ""; display: block; width: 0; height: 100%; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+/* line 132, y:/vhosts/branches/prx/sass/reset.scss */
+.hidden { display: none; }
+
+/* Clearfix */
+/* line 135, y:/vhosts/branches/prx/sass/reset.scss */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+
+/* line 136, y:/vhosts/branches/prx/sass/reset.scss */
+.clearfix:after { clear: both; }
+
+/* Positions */
+/* line 139, y:/vhosts/branches/prx/sass/reset.scss */
+.relative { position: relative; }
+
+/* line 140, y:/vhosts/branches/prx/sass/reset.scss */
+.absolute { position: absolute; }
+
+/* Lists */
+/* line 143, y:/vhosts/branches/prx/sass/reset.scss */
+ul, ol { list-style: none; }
+
+/* line 146, y:/vhosts/branches/prx/sass/reset.scss */
+a { outline: none; }
