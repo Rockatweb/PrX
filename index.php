@@ -9,12 +9,13 @@
         <meta name="author" content="???" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/fontello.css">
-        <link rel="stylesheet" href="css/transition.min.css">
-        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet/less" type="text/css" href="less/reset.less">
+        <link rel="stylesheet/less" type="text/css" href="less/fontello.less">
+        <link rel="stylesheet/less" type="text/css" href="less/transition.min.less">
+        <link rel="stylesheet/less" type="text/css" href="less/base.less">
         
-        
+        <script src="js/base.js" type="text/javascript"></script>
+        <script src="js/less-1.5.0.min.js" type="text/javascript"></script>
         <link rel="stylesheet" href="min/?f=css/reset.css,css/fontello.css,css/transition.min.css,css/base.css">
         <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         

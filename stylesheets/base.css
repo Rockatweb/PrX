@@ -1,77 +1,77 @@
-/* line 1, y:/vhosts/branches/prx/sass/base.scss */
+/* line 1, D:/Projects/workspace/PrX/sass/base.scss */
 body { font-family: "Ropa Sans", sans-serif; }
 
-/* line 4, y:/vhosts/branches/prx/sass/base.scss */
+/* line 5, D:/Projects/workspace/PrX/sass/base.scss */
 .wrapper { padding: 40px 0; }
 
-/* line 6, y:/vhosts/branches/prx/sass/base.scss */
+/* line 7, D:/Projects/workspace/PrX/sass/base.scss */
 .main { position: relative; }
 
 /* Header
 -----------------------------------------------*/
-/* line 10, y:/vhosts/branches/prx/sass/base.scss */
+/* line 11, D:/Projects/workspace/PrX/sass/base.scss */
 #header { text-align: center; position: relative; }
 
-/* line 11, y:/vhosts/branches/prx/sass/base.scss */
+/* line 12, D:/Projects/workspace/PrX/sass/base.scss */
 #header .backToHome { position: absolute; top: 10px; left: 0; }
 
-/* line 13, y:/vhosts/branches/prx/sass/base.scss */
+/* line 14, D:/Projects/workspace/PrX/sass/base.scss */
 #header .logo { margin: 20px auto; display: inline-block; position: relative; }
 
-/* line 14, y:/vhosts/branches/prx/sass/base.scss */
+/* line 15, D:/Projects/workspace/PrX/sass/base.scss */
 #header .logo:before { font-size: 4em; display: inline-block; color: #000; font-style: italic; }
 
-/* line 15, y:/vhosts/branches/prx/sass/base.scss */
+/* line 16, D:/Projects/workspace/PrX/sass/base.scss */
 #header .logo h1 { font-size: 3em; line-height: 1.5em; text-align: center; color: #000; font-style: italic; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0); }
 
-/* line 16, y:/vhosts/branches/prx/sass/base.scss */
+/* line 17, D:/Projects/workspace/PrX/sass/base.scss */
 #header .logo span { color: #333; text-align: right; display: block; font-style: italic; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0); }
 
-/* line 20, y:/vhosts/branches/prx/sass/base.scss */
+/* line 21, D:/Projects/workspace/PrX/sass/base.scss */
 #headerSmall { text-align: center; position: fixed; top: 0; left: 0; width: 100%; border-bottom: 1px solid #ccc; padding: 7px; z-index: 10; }
 
-/* line 21, y:/vhosts/branches/prx/sass/base.scss */
+/* line 22, D:/Projects/workspace/PrX/sass/base.scss */
 #headerSmall .backToHome { position: absolute; top: 2px; left: 2px; border: 3px double #ccc; border-radius: 100%; padding: 2px; color: #000; background: white; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #f1f1f1), color-stop(51%, #e1e1e1), color-stop(100%, #f6f6f6)); background: -webkit-linear-gradient(top, white 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); background: linear-gradient(to bottom, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); }
 
-/* line 28, y:/vhosts/branches/prx/sass/base.scss */
+/* line 29, D:/Projects/workspace/PrX/sass/base.scss */
 #headerSmall .logo { margin: 20px auto; display: inline-block; position: relative; }
 
-/* line 29, y:/vhosts/branches/prx/sass/base.scss */
+/* line 30, D:/Projects/workspace/PrX/sass/base.scss */
 #headerSmall .logo:before { font-size: 1em; color: #000; font-style: italic; margin-right: 15px; }
 
-/* line 30, y:/vhosts/branches/prx/sass/base.scss */
+/* line 31, D:/Projects/workspace/PrX/sass/base.scss */
 #headerSmall .logo { font-size: 1em; line-height: 1.2em; text-align: center; color: #000; font-style: italic; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0); margin: 0; }
 
 /* Start
 -----------------------------------------------*/
-/* line 36, y:/vhosts/branches/prx/sass/base.scss */
+/* line 37, D:/Projects/workspace/PrX/sass/base.scss */
 .mainNav a { display: block; font-size: 2.2em; text-decoration: none; color: #333; border: 1px solid #333; border-top: 0; padding: .4em; background: white; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #f1f1f1), color-stop(51%, #e1e1e1), color-stop(100%, #f6f6f6)); background: -webkit-linear-gradient(top, white 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); background: linear-gradient(to bottom, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); }
 
-/* line 42, y:/vhosts/branches/prx/sass/base.scss */
+/* line 43, D:/Projects/workspace/PrX/sass/base.scss */
 .mainNav a:before { font-size: 1em; margin-right: 0.6em; }
 
-/* line 43, y:/vhosts/branches/prx/sass/base.scss */
+/* line 44, D:/Projects/workspace/PrX/sass/base.scss */
 .mainNav a:first-child { border-top: 1px solid #333; border-radius: 0.4em 0.4em 0 0; }
 
-/* line 44, y:/vhosts/branches/prx/sass/base.scss */
+/* line 45, D:/Projects/workspace/PrX/sass/base.scss */
 .mainNav a:last-child { border-radius: 0 0 0.4em 0.4em; }
 
-/* line 47, y:/vhosts/branches/prx/sass/base.scss */
+/* line 48, D:/Projects/workspace/PrX/sass/base.scss */
 .mainNav a:hover { color: #000; font-weight: bold; background: white; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #f3f3f3), color-stop(51%, #ededed), color-stop(100%, white)); background: -webkit-linear-gradient(top, white 0%, #f3f3f3 50%, #ededed 51%, white 100%); background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); }
 
 /* Start
 -----------------------------------------------*/
-/* line 57, y:/vhosts/branches/prx/sass/base.scss */
+/* line 58, D:/Projects/workspace/PrX/sass/base.scss */
 .searchWrapper { margin: 40px auto; width: 300px; }
 
-/* line 58, y:/vhosts/branches/prx/sass/base.scss */
+/* line 59, D:/Projects/workspace/PrX/sass/base.scss */
 #search { font-size: 1.1em; width: 210px; padding: 4px; }
 
-/* line 59, y:/vhosts/branches/prx/sass/base.scss */
+/* line 60, D:/Projects/workspace/PrX/sass/base.scss */
 #searchButton { font-size: 1.1em; width: 80px; padding: 2px; }
 
-/* line 61, y:/vhosts/branches/prx/sass/base.scss */
+/* line 62, D:/Projects/workspace/PrX/sass/base.scss */
 footer { position: fixed; bottom: 0; left: 0; background: #fff; border-top: 1px solid #ccc; display: block; width: 100%; text-align: center; }
 
-/* line 62, y:/vhosts/branches/prx/sass/base.scss */
+/* line 63, D:/Projects/workspace/PrX/sass/base.scss */
 footer a { color: #333333; }
