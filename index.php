@@ -12,8 +12,6 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <base href="<?php echo getBaseUrl(); ?>" target="_blank">
         
-        
-        <script src="js/base.js" type="text/javascript"></script>
         <link rel="stylesheet" href="<?php echo getBaseUrl(); ?>min/?f=less/reset.less,less/fontello.less,less/transition.min.less,less/base.less" type="text/css">
         <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         
@@ -31,5 +29,6 @@
         ?>
 
         <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/base.js" type="text/javascript"></script>
     </body>
 </html>

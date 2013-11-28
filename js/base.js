@@ -1,6 +1,6 @@
 (function($) {
     
-	var base = function(){
+	var BaseModule = function(){
 		this.init = function() {
             //init less css
              this.less.init();
@@ -29,9 +29,8 @@
         };
     };
     if ($(body).length){
-        var b = new base();
+        var bm = new BaseModule();
 
-        b.init();
+        bm.init();
     }
-	
 });
