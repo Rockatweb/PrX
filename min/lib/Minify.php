@@ -311,7 +311,11 @@ class Minify {
         if (! self::$_options['quiet']) {
             // output headers & content
             foreach ($headers as $name => $val) {
-                header($name . ': ' . $val);
+                if( $name == "Content-Type" && stristr($val, "text/less") ) {
+                    header($name . ': ' . "text/css");
+                } else {
+                    header($name . ': ' . $val);
+                }
             }
             if ($cacheIsReady) {
                 self::$_cache->display($fullCacheId);

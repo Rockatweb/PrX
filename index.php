@@ -12,14 +12,9 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <base href="<?php echo getBaseUrl(); ?>" target="_blank">
         
-        <link rel="stylesheet/less" type="text/css" href="less/reset.less">
-        <link rel="stylesheet/less" type="text/css" href="less/fontello.less">
-        <link rel="stylesheet/less" type="text/css" href="less/transition.min.less">
-        <link rel="stylesheet/less" type="text/css" href="less/base.less">
         
         <script src="js/base.js" type="text/javascript"></script>
-        <script src="js/less-1.5.0.min.js" type="text/javascript"></script>
-        <!-- <link rel="stylesheet" href="<?php echo getBaseUrl(); ?>/min/?f=css/reset.css,css/fontello.css,css/transition.min.css,css/base.css"> -->
+        <link rel="stylesheet" href="<?php echo getBaseUrl(); ?>min/?f=less/reset.less,less/fontello.less,less/transition.min.less,less/base.less" type="text/css">
         <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         
         <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
