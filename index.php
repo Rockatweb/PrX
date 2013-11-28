@@ -1,3 +1,5 @@
+<?php require_once 'helper/getBaseUrl.php';?>
+
 <!DOCTYPE html>
 <html lang="de-DE">
     <head>
@@ -8,6 +10,7 @@
         <meta name="keywords" content="???" />
         <meta name="author" content="???" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <base href="<?php echo getBaseUrl(); ?>" target="_blank">
         
         <link rel="stylesheet/less" type="text/css" href="less/reset.less">
         <link rel="stylesheet/less" type="text/css" href="less/fontello.less">
@@ -16,7 +19,7 @@
         
         <script src="js/base.js" type="text/javascript"></script>
         <script src="js/less-1.5.0.min.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="min/?f=css/reset.css,css/fontello.css,css/transition.min.css,css/base.css">
+        <!-- <link rel="stylesheet" href="<?php echo getBaseUrl(); ?>/min/?f=css/reset.css,css/fontello.css,css/transition.min.css,css/base.css"> -->
         <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         
         <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
@@ -32,7 +35,6 @@
             include('loader.php');
         ?>
 
-        <script src="js/zepto.js"></script>
-        <script src="js/transition.js"></script>
+        <script src="js/jquery-1.10.2.js"></script>
     </body>
 </html>

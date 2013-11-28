@@ -1,10 +1,16 @@
 (function($) {
-    /*
-     * Less css
-     */
+    
 	var base = function(){
+		this.init = function() {
+            //init less css
+             this.less.init();
+		},
+		/*
+	     * less css
+	     */
 		this.less = {
             init : function(){
+            	console.log("init");
             	less = {
         	        env: "development", // or "production"
         	        async: false,       // load imports async
